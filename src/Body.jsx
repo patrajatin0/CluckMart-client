@@ -1,7 +1,11 @@
 
 import FONT_IMG from "./assets/caresol.jpg"
 import { Link } from "react-router-dom"
-import Shimmer from "./util/Shimmer"
+
+import Products from "./pages/Products"
+import Footer from "./components/Footer"
+
+
 function Body() {
     return (
         <div>
@@ -32,6 +36,9 @@ function Body() {
                 </div>
 
             </div>
+            <Products />
+
+            <Footer />
 
         </div>
     )

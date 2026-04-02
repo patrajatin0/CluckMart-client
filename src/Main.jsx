@@ -41,10 +41,6 @@ const appLayout = createBrowserRouter([{
     }, {
       path: "home",
       element: <Home />
-    },
-    {
-      path: "product",
-      element: <Products />
     }
   ]
 }])
